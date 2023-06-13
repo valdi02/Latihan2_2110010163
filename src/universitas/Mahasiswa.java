@@ -14,7 +14,7 @@ public class Mahasiswa {
     private String prodi;
     private String nim;
     
-    public Mahasiswa(String nama, String prodi) {
+    public Mahasiswa(String nama, String prodi, String nim) {
         this.nama = nama;
         this.prodi = prodi;
         this.nim = nim;
