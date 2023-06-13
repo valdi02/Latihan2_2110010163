@@ -10,5 +10,13 @@ package universitas;
  * @author valdi
  */
 public class Mahasiswa {
+    constructor(nama, prodi) {
+    private String nama;
+    private String prodi;
+    private String nim;
     
+    public Mahasiswa(String nama, String prodi) {
+        this.nama = nama;
+        this.prodi = prodi;
+}
 }
